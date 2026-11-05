@@ -1,15 +1,28 @@
 # 📘 Assignment: [Assignment Title]
 
+**Difficulty:** [Beginner / Intermediate / Advanced]
+
 ## 🎯 Objective
 
-[Brief description of what the student will build or accomplish in this assignment]
+[In a few sentences, describe what students will build and why it is useful.]
+
+## 📚 Learning Objectives
+
+By completing this assignment, you will be able to:
+
+- [Skill or concept students will practice]
+- [Skill or concept students will practice]
+
+## ✅ Before You Begin
+
+- [Knowledge or materials students need]
 
 ## 📝 Tasks
 
-### 🛠️	[Task 1 Title]
+### 🛠️ [Task 1 Title]
 
 #### Description
-[Description what needs to be done by the student for this task]
+[Explain the first step in clear, encouraging language.]
 
 #### Requirements
 Completed program should:
@@ -19,10 +32,10 @@ Completed program should:
 - [Requirement 3]
 
 
-### 🛠️	[Task 2 Title]
+### 🛠️ [Task 2 Title]
 
 #### Description
-[Description what needs to be done by the student for this task]
+[Explain the next step and how it builds on the previous task.]
 
 #### Requirements
 Completed program should:
