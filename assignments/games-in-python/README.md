@@ -1,48 +1,64 @@
 
-# Hangman Game Challenge
+# 📘 Assignment: Hangman Game
 
 **Difficulty:** Beginner
 
-## Objective
+## 🎯 Objective
 
-Build a word-guessing game where the player reveals a hidden word by guessing one letter at a time. This is a chance to practice loops, conditionals, strings, lists, and user input in one small project.
+Build a word-guessing game where a player reveals a hidden word by guessing one letter at a time. This project brings together loops, conditionals, strings, lists, and user input in a fun, interactive program.
 
-## Learning Objectives
+## 📚 Learning Objectives
 
 By completing this assignment, you will be able to:
 
-- Use a loop to keep a game running until a condition is met.
-- Compare strings and update a collection of guessed letters.
+- Use a loop to run a game until a win or loss condition is met.
+- Track guesses and compare letters in strings.
 - Use conditionals to respond to correct and incorrect guesses.
-- Use Python's `random` module to choose a word.
+- Use Python's `random` module to select a word from a list.
 
-## Before You Begin
+## ✅ Before You Begin
 
-You should be comfortable with variables, lists, `if` statements, loops, and reading input with `input()`. The starter file includes a word list and TODO markers to help you get started.
+- Be comfortable with variables, lists, `if` statements, loops, and reading input with `input()`.
+- Open [`starter-code.py`](./starter-code.py), which includes a word list and TODO markers to help you get started.
 
-## Tasks
+## 📝 Tasks
 
-### 1. Set up the game
+### 🛠️ Set Up the Game
 
-Choose a secret word at random from the provided list. Create variables to store the letters guessed so far and the number of incorrect guesses allowed.
+#### Description
+Choose a secret word at random from the provided list and prepare the game state before the first turn.
 
-### 2. Show the word as it is guessed
+#### Requirements
+Completed program should:
 
-Display each letter that has been guessed correctly and use an underscore for each hidden letter. For example, if the word is `python` and the player has guessed `p` and `o`, show `p _ _ _ o _`.
+- Select a secret word from the provided `words` list using Python's `random` module.
+- Track the letters the player has guessed.
+- Set and track the maximum number of incorrect guesses allowed.
 
-### 3. Run a complete round
+### 🛠️ Show Guessing Progress
 
-Ask the player for a letter, check whether it is in the secret word, and update the game state. Continue until the player reveals every letter or runs out of incorrect guesses.
+#### Description
+Show the player's progress after each guess, revealing correctly guessed letters while keeping the other letters hidden.
 
-## Completion Checklist
+#### Requirements
+Completed program should:
 
-Your game is ready when it:
+- Display each correctly guessed letter in its position and an underscore for each hidden letter.
+- For example, if the word is `python` and the player has guessed `p` and `o`, show `p _ _ _ o _`.
+- Display the number of incorrect guesses remaining.
 
-- Selects one word randomly from the provided list.
-- Shows correct guesses in their positions and underscores for hidden letters.
-- Tracks and displays the remaining incorrect guesses.
-- Does not count a repeated guess as a new incorrect guess.
-- Ends when the word is complete or no incorrect guesses remain.
-- Tells the player whether they won and reveals the word if they lost.
+### 🛠️ Play a Complete Round
+
+#### Description
+Ask the player to guess one letter at a time, update the game state, and finish the round when the word is revealed or the player runs out of incorrect guesses.
+
+#### Requirements
+Completed program should:
+
+- Continue asking for guesses while the game is in progress.
+- Update the guessed letters when the player makes a guess.
+- Not count a repeated guess as a new incorrect guess.
+- End when the player reveals the whole word or uses all allowed incorrect guesses.
+- Tell the player whether they won and reveal the secret word if they lost.
 
 Start with the word display, then add one game rule at a time. Test both a winning round and a round with incorrect guesses.
